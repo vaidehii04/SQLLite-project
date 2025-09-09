@@ -32,7 +32,7 @@
 ## How to Use
 <details>
   <summary>Requirements</summary>
-  **Ensure system is using the most current version:**
+  Ensure system is using the most current version:
   
   - **Arch Based Distros**
 
