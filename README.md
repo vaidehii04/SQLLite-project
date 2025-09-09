@@ -1,16 +1,4 @@
 #Introduction To Oriented Programming Term Project
-<h3 align-"center">
-	> TTTTTTTTTTTTTTT	EEEEEEEEEEEE	MMM           MMM	PPPPPPPPPPP
-	> TTTTTTTTTTTTTTT	EEEEEEEEEEEE	MMMM		 MMMM	PPPPPPPPPPPPP
-	>	    TTT         EEE				MMMMM		MMMMM	PPP		 PPPPP
-	>    	TTT     	EEE				MMM MMM	  MMM MMM	PPP		  PPPP
-	>		TTT		    EEEEEEEE		MMM  MMM MMM  MMM	PPP     PPPPP
-	>	    TTT		    EEEEEEEE		MMM   MMMMM   MMM   PPPPPPPPPPP
-	>		TTT			EEE				MMM	   MMM	  MMM	PPPPPPPPP
-	>		TTT			EEE				MMM		M	  MMM	PPP
-	>		TTT			EEEEEEEEEEEE	MMM			  MMM	PPP
-	>		TTT			EEEEEEEEEEEE	MMM			  MMM	PPP
-</h3>
 
 > [!Note]
 > This message will be changed once the project is decided
