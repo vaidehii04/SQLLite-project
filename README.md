@@ -1,15 +1,9 @@
-<details> 
-	<summary> Inspirations/Context </summary>
-	<p></p>
-</details>
-<details> 
-	<summary> What it does </summary>
-		<p></p>
-</details>
-<details> 
-	<summary> What Now? </summary>
-	<p></p>
-</details>
+# Event Management
+> [!Note]
+> This is not a complete project and will not be ready for use until this message is deleted
+
+> [!Warning]
+> Check the code behind the install.sh before installing to ensure a secure installation process
 
 ## What we Built
 <details> 
