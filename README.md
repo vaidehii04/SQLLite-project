@@ -1,4 +1,4 @@
-###Introduction To Oriented Programming Term Project
+### Introduction To Oriented Programming Term Project
 
 > [!Note]
 > This message will be changed once the project is decided
@@ -9,21 +9,17 @@
 ### What we Built
 <details> 
 	<summary> Inspirations/Context </summary>
-	<p> </p>
 </details>
 <details> 
 	<summary> What it does </summary>
-	<p> </p>
 </details>
 <details> 
 	<summary> What Now? </summary>
-	<p> </p>
 </details>
 
 ### How to Use
 <details> 
 	<summary> Requirements </summary>
-	<p> </p>
 	 Ensure system is using the most current version
 		- Arch Based Distos
 	 ```
@@ -54,7 +50,6 @@
 </details>
 <details> 
 	<summary> Installation </summary>
-	<p> </p>
 	Copy this command into your terminal and follow the steps that apear on screen.
 	```
 	bash <(curl -fsSl "https://github.com/<Username>/<Repo_Name>/install.sh")
