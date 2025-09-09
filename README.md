@@ -1,4 +1,4 @@
-##Introduction To Oriented Programming Term Project
+###Introduction To Oriented Programming Term Project
 
 > [!Note]
 > This message will be changed once the project is decided
@@ -24,30 +24,30 @@
 <details> 
 	<summary> Requirements </summary>
 	<p> </p>
-	 > Ensure system is using the most current version
-	 - Arch Based Distos
+	 Ensure system is using the most current version
+		- Arch Based Distos
 	 ```
 	 sudo pacman -Syu
 	 ```
-	 - Debian Based Distos
+		-Debian Based Distos
 	 ```
 	 sudo apt update
 	 sudo apt upgrade
 	 ```
-	 - Windows CMD
+		- Windows CMD
 	 ```
 	 winget upgrade --all
 	 ```
-	 > Download required dependancies
+	 Download required dependancies
 	 	 - Arch Based Distos
 	 ```
 	 sudo pacman -S <packages>
 	 ```
-	 - Debian Based Distos
+		 - Debian Based Distos
 	 ```
 	 sudo apt install <packaes> 
 	 ```
-	 - Windows CMD
+		- Windows CMD
 	 ```
 	 winget install <packages> 
 	 ```
@@ -55,7 +55,7 @@
 <details> 
 	<summary> Installation </summary>
 	<p> </p>
-	<Copy this command into your terminal and follow the steps that apear on screen.
+	Copy this command into your terminal and follow the steps that apear on screen.
 	```
 	bash <(curl -fsSl "https://github.com/<Username>/<Repo_Name>/install.sh")
 	```	
