@@ -1,57 +1,62 @@
-### Introduction To Oriented Programming Term Project
-
-> [!Note]
-> This message will be changed once the project is decided
-
-> [!Warning]
-> This message will be changed once the project is finished
-
-### What we Built
 <details> 
 	<summary> Inspirations/Context </summary>
+	<p></p>
 </details>
 <details> 
 	<summary> What it does </summary>
+		<p></p>
 </details>
 <details> 
 	<summary> What Now? </summary>
+	<p></p>
 </details>
 
-### How to Use
+## What we Built
 <details> 
-	<summary> Requirements </summary>
-	 Ensure system is using the most current version
-		- Arch Based Distos
-	 ```
-	 sudo pacman -Syu
-	 ```
-		-Debian Based Distos
-	 ```
-	 sudo apt update
-	 sudo apt upgrade
-	 ```
-		- Windows CMD
-	 ```
-	 winget upgrade --all
-	 ```
-	 Download required dependancies
-	 	 - Arch Based Distos
-	 ```
-	 sudo pacman -S <packages>
-	 ```
-		 - Debian Based Distos
-	 ```
-	 sudo apt install <packaes> 
-	 ```
-		- Windows CMD
-	 ```
-	 winget install <packages> 
-	 ```
+  <summary>Inspirations/Context</summary>
+  <!-- Add inspiration/context here -->
+  <p></p>
+</details>
+
+<details> 
+  <summary>What it does</summary>
+  <!-- Add project functionality description here -->
+  <p></p>
 </details>
 <details> 
-	<summary> Installation </summary>
-	Copy this command into your terminal and follow the steps that apear on screen.
-	```
-	bash <(curl -fsSl "https://github.com/<Username>/<Repo_Name>/install.sh")
-	```	
+  <summary>What Now?</summary>
+  <!-- Add follow-up/next steps vision here -->
+  <p></p>
+</details>
+
+## How to Use
+<details>
+  <summary>Requirements</summary>
+  **Ensure system is using the most current version:**
+  - **Arch Based Distros**
+    ```
+    sudo pacman -Syu
+    ```
+  - **Debian Based Distros**
+    ```
+    sudo apt update
+    sudo apt upgrade
+    ```
+  - **Windows CMD**
+    ```
+    winget upgrade --all
+    ```
+  **Download required dependencies:**
+  - **Arch Based Distros**
+    ```
+    sudo pacman -S <packages>
+    ```
+  - **Debian Based Distros**
+    ```
+    sudo apt install <packages>
+    ```
+  - **Windows CMD**
+    ```
+    <insert Windows command>
+    ```
 </details>
