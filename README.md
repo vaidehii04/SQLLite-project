@@ -84,8 +84,10 @@
   <summary>Installation</summary>
   CDM line or Terminal
 
-	```
-	bash <(curl -fsSL "https://github.com/RichardSmith240/Event_Management_Application-IOOP2025")
-	```
+```
+
+bash <(curl -fsSL "https://github.com/RichardSmith240/Event_Management_Application-IOOP2025")
+
+```
 	
 </details>
