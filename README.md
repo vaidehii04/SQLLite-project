@@ -9,9 +9,7 @@
 
 - Working GUI
 - Working locally stored database
-%% Add other goals/features here.
-%% Please be realistic but not to easy as this is supposed to be a healthy challenge 
-%% ;)
+[comment]: <> (Add other goals/features here. Please be realistic but not to easy as this is supposed to be a healthy challenge)
 
 ## What we Built
 <details> 
