@@ -9,7 +9,7 @@
 
 - Working GUI
 - Working locally stored database
-[comment]: # add additional goals here
+[comment]: # (add additional goals here)
 
 ## What we Built
 <details> 
