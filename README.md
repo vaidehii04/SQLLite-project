@@ -6,11 +6,10 @@
 > Check the code behind the install.sh before installing to ensure a secure installation process
 
 ## Goals/Feature to Implement
-<details>
-	- Working GUI
-	- Working locally stored database
-	[comment]: # add additional goals here
-</details>
+
+- Working GUI
+- Working locally stored database
+[comment]: # add additional goals here
 
 ## What we Built
 <details> 
