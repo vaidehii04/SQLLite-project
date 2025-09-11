@@ -37,7 +37,7 @@
 
 ## How to Use
 <details>
-  <summary>Requirements</summary>
+  <summary>Preparation</summary>
   Ensure system is using the most current version:
   
   - **Arch Based Distros**
@@ -79,4 +79,11 @@
     <insert Windows command>
     ```
 	
+</details>
+<details>
+	<summary>Installation</summary>
+		- CDM line or Terminal
+		```
+		bash <(curl -fsSL "https://github.com/RichardSmith240/Event_Management_Application-IOOP2025")
+		```
 </details>
