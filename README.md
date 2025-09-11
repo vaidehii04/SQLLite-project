@@ -9,7 +9,7 @@
 
 - Working GUI
 - Working locally stored database
-[comment]: <> (Add other goals/features here. Please be realistic but not to easy as this is supposed to be a healthy challenge)
+<!---Add other goals/features here with a dash (-) before it to denote it as a bullet point. Please be realistic but not to easy as this is supposed to be a healthy challenge---> 
 
 ## What we Built
 <details> 
