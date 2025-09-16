@@ -59,26 +59,6 @@
     winget upgrade --all
     ```
 	
-  **Download required dependencies:**
-
-  - **Arch Based Distros**
-    
-	```
-    sudo pacman -S <packages>
-    ```
-	
-  - **Debian Based Distros**
-    
-	```
-    sudo apt install <packages>
-    ```
-	
-  - **Windows CMD**
-    
-	```
-    <insert Windows command>
-    ```
-	
 </details>
 <details>
   <summary>Installation</summary>
