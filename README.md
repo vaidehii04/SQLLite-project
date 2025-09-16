@@ -65,8 +65,8 @@
   Make sure you have the prefered installation media downloaded or ready to use
   - **CDM line or Terminal**
 	
-	```
+```
 	bash <(curl -fsSL "https://raw.githubusercontent.com/RichardSmith240/Event_Management_Application-IOOP2025/main/install.sh")
-	```
+```
 	
 </details>
