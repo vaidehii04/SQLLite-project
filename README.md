@@ -62,7 +62,7 @@
 </details>
 <details>
   <summary>Installation</summary>
-  Make sure you have the prefered installation media downloaded or ready to use
+
   - **CDM line or Terminal**
 	
 ```
