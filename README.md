@@ -23,7 +23,10 @@
 <details> 
   <summary>What it does</summary>
 
-<!-- Add project functionality description here -->
+<!-- Contains a User Login page with unique usrID and pwds-->
+<!-- detail event/appointment application forms with storage (name first/sir, pwd, generated userID, day, time/durration, location) --> 
+<!-- option to sign up --> 
+<!-- deposite/withdraw amount system --> 
 
 <p></p>
 </details>
