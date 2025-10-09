@@ -15,13 +15,11 @@ class loginCLI{
 			loginSign = Character.toLowerCase(loginSign);
 			//checks for option value with login as the default
 			if (loginSign == 'l'){
-				clearScreen();
 				auth = Authenticate();
 				System.out.println("You have Successfully Logged in");
 			} else if (loginSign == 's'){
-				clearScreen();
 				SignUp();
-				System.out.println("Congradulation. \n You have Successfully registered with *xXx* Systems. Please Proceed to the login screen.");
+				System.out.println("Congradulation. \nYou have Successfully registered with *xXx* Systems. \nPlease proceed to the login screen.");
 				clearScreen();
 			} else {
 				System.out.println("Please try again");
@@ -32,11 +30,13 @@ class loginCLI{
 
 	//authenication method
 	public static boolean Authenticate(){
+		clearScreen();
 		return true;
 	}
 
 	//sign-up method
 	public static void SignUp(){
+		clearScreen();
 		System.out.println("lol");
 	}
 
@@ -47,7 +47,7 @@ class loginCLI{
 		} catch (InterruptedException e){
 			Thread.currentThread().interrupt();
 		}
-		System.out.print("\033[H");
+		System.out.print("\033[H\033[2J");
 		System.out.flush();
 	}
 }
