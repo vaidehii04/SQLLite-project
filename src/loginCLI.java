@@ -17,8 +17,9 @@ public loginCLI main{
 				auth = Authenticate();
 			} else if (LoginSign == "s"){
 				SignUp();
+				System.out.println("Congradulation. \n You have Successfully registered with *xXx* Systems. Please Proceed to the login screen.");
 			} else {
-				System.out.print("Please try again");
+				System.out.println("Please try again");
 			}
 		}
 		scnr.close();
@@ -26,11 +27,16 @@ public loginCLI main{
 
 	//authenication method
 	public boolean Authenticate(){
-		
 	}
 
 	//sign-up method
 	public void SignUp(){
+	}
+
+	//Method to clear the screen for the cli
+	public static void clearScreen(){
+		System.out.print("\033[H\033[2J");
+		System.out.flush();
 	}
 }
 
