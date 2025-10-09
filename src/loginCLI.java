@@ -11,14 +11,14 @@ class loginCLI{
 		//Asking whether the user wants to login with an existing account or create a new account
 		while (auth == false){
 			System.out.println("Would you like to Login or Sign-Up for *xXx* System? [L/s]");
-			String loginSign = scnr.next();
-			loginSign = loginSign.toLowerCase();
+			char loginSign = scnr.nextLine().charAt(0);
+			loginSign = Character.toLowerCase(loginSign);
 			//checks for option value with login as the default
-			if (loginSign == "login" || loginSign =="l"){
+			if (loginSign == 'l'){
 				clearScreen();
 				auth = Authenticate();
 				System.out.println("You have Successfully Logged in");
-			} else if (loginSign == "sign-up" || loginSign == "sign up" || loginSign == "s"){
+			} else if (loginSign == 's'){
 				clearScreen();
 				SignUp();
 				System.out.println("Congradulation. \n You have Successfully registered with *xXx* Systems. Please Proceed to the login screen.");
@@ -47,7 +47,7 @@ class loginCLI{
 		} catch (InterruptedException e){
 			Thread.currentThread().interrupt();
 		}
-		System.out.print("\033[H\033[2J");
+		System.out.print("\033[H");
 		System.out.flush();
 	}
 }
