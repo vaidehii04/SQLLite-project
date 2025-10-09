@@ -10,15 +10,15 @@ class loginCLI{
 
 		//Asking whether the user wants to login with an existing account or create a new account
 		while (auth == false){
-			System.out.print("Would you like to Login or Sign-Up for *xXx* System? [L/s] ");
-			char loginSign = scnr.next().charAt(0);
-			loginSign = Character.toLowerCase(loginSign);
+			System.out.print("Would you like to Login or Sign-Up for *xXx* System? ");
+			String loginSign = scnr.next();
+			loginSign = loginSign.toLowerCase();
 			//checks for option value with login as the default
-			if (loginSign == 'l'){
+			if (loginSign == "login" ){
 				clearScreen();
 				auth = Authenticate();
 				System.out.println("You have Successfully Logged in");
-			} else if (loginSign == 's'){
+			} else if (loginSign == "sign-up" || loginSign == "sign up"){
 				clearScreen();
 				SignUp();
 				System.out.println("Congradulation. \n You have Successfully registered with *xXx* Systems. Please Proceed to the login screen.");
