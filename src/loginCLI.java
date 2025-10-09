@@ -1,23 +1,28 @@
 //dependancies
 import java.util.Scanner;
+import java.lang.InterruptedException;
 
-public loginCLI main{
+class loginCLI{
 	public static void main(String[] args){
 		Scanner scnr = new Scanner(System.in);
 	
-		boolean auth;
+		boolean auth = false;
 
 		//Asking whether the user wants to login with an existing account or create a new account
-		While (auth == False){
+		while (auth == false){
 			System.out.print("Would you like to Login or Sign-Up for *xXx* System? [L/s] ");
-			Char loginSign = scnr.next().charAt(0);
-			loginSign = loginSign.toLowerCaes();
+			char loginSign = scnr.next().charAt(0);
+			loginSign = Character.toLowerCase(loginSign);
 			//checks for option value with login as the default
-			if (loginSign == "" | loginSign == "l" | loginSign == " "){
+			if (loginSign == 'l'){
+				clearScreen();
 				auth = Authenticate();
-			} else if (LoginSign == "s"){
+				System.out.println("You have Successfully Logged in");
+			} else if (loginSign == 's'){
+				clearScreen();
 				SignUp();
 				System.out.println("Congradulation. \n You have Successfully registered with *xXx* Systems. Please Proceed to the login screen.");
+				clearScreen();
 			} else {
 				System.out.println("Please try again");
 			}
@@ -26,18 +31,23 @@ public loginCLI main{
 	}
 
 	//authenication method
-	public boolean Authenticate(){
+	public static boolean Authenticate(){
+		return true;
 	}
 
 	//sign-up method
-	public void SignUp(){
+	public static void SignUp(){
+		System.out.println("lol");
 	}
 
 	//Method to clear the screen for the cli
 	public static void clearScreen(){
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e){
+			Thread.currentThread().interrupt();
+		}
 		System.out.print("\033[H\033[2J");
 		System.out.flush();
 	}
 }
-
-
