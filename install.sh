@@ -1,12 +1,37 @@
-echo "This project is not quite ready for installation."
-echo "Please be patient as we draft a working build of this program."
-
-echo "In the meantime, have a duck."
-echo '
-                 ,-.
-         ,      ( {o\
-         {`"=,___) (`~
-          \  ,_.-   )
-     ~^~^~^`- ~^ ~^ `~^~^~^~
-	 '
-
+echo "Welcome to (Management Software Name tbd)" 
+sleep 1
+echo "This Script will install the program and all necessary dependancies for it to run smoothly and securely."
+sleep 2
+read -p "Are you Ready to begin? [Y/n] " confirm
+if [["$confirm" == "y" || -z "$confirm"]]; then
+	echo "Great!"
+	sleep 3
+	clear
+	sleep 1
+	echo "Installing dependancies"
+	sleep 1
+	./scripts/dependancies.sh
+	sleep 1
+	clear
+	sleep 1
+	echo "Beginning Installation"
+	sleep 1
+	./scripts/install-application.sh
+	clear
+	sleep 1
+	echo "Post Installtion Set-up and Configuration"
+	sleep 1
+	./scripts/post-install.sh
+	sleep 1
+	clear
+	sleep 1
+	echo "installtion and set-up is complete."
+	sleep 1
+	echo "Thank you for choosing (Management Software Name tbd)"
+else
+	echo "Okay"
+	sleep 1
+	echo "Exiting Install Script"
+	sleep 3
+	clear
+fi
