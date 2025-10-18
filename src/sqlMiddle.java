@@ -26,8 +26,6 @@ public class sqlMiddle {
         }
         catch(SQLException e)
         {
-          // if the error message is "out of memory",
-          // it probably means no database file is found
           e.printStackTrace(System.err);
         }
       }
