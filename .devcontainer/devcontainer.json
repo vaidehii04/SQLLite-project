@@ -1,10 +1,10 @@
 {
   "name": "bank-db",
-  "image": "mcr.microsoft.com/devcontainers/java:17",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3 postgresql-client",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y sqlite3",
   "customizations": {
     "vscode": {
-      "extensions": ["vscodevim.vim", "vscjava.vscode-java-pack"]
+      "extensions": ["vscodevim.vim"]
     }
   }
 }
