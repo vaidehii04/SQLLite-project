@@ -1,8 +1,7 @@
 # SQLLite-project
-my part on the project we did 
+my part on the project for ECES1510
 # Bank Login DB (SQLite via Codespaces)
-
-## Quickstart (in GitHub Codespaces)
+# Steps to run it ig
 1. Click **Code ▸ Create codespace on main**.
 2. In the terminal:
    chmod +x scripts/*.sh
