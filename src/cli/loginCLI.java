@@ -15,10 +15,10 @@ class loginCLI{
 			loginSign = Character.toLowerCase(loginSign);
 			//checks for option value with login as the default
 			if (loginSign == 'l'){
-				auth = Authenticate();
+				auth = Authentication.Authenticate();
 				System.out.println("You have Successfully Logged in");
 			} else if (loginSign == 's'){
-				SignUp();
+				Authentication.SignUp();
 				System.out.println("Congradulation. \nYou have Successfully registered with *xXx* Systems. \nPlease proceed to the login screen.");
 				clearScreen();
 			} else {
@@ -26,18 +26,6 @@ class loginCLI{
 			}
 		}
 		scnr.close();
-	}
-
-	//authenication method
-	public static boolean Authenticate(){
-		clearScreen();
-		return true;
-	}
-
-	//sign-up method
-	public static void SignUp(){
-		clearScreen();
-		System.out.println("lol");
 	}
 
 	//Method to clear the screen for the cli
