@@ -10,18 +10,18 @@ if [["$confirm" == "y" || -z "$confirm"]]; then
 	sleep 1
 	echo "Installing dependancies"
 	sleep 1
-	./scripts/dependancies.sh
+	./dependancies.sh
 	sleep 1
 	clear
 	sleep 1
 	echo "Beginning Installation"
 	sleep 1
-	./scripts/install-application.sh
+	./install-application.sh
 	clear
 	sleep 1
 	echo "Post Installtion Set-up and Configuration"
 	sleep 1
-	./scripts/post-install.sh
+	./post-install.sh
 	sleep 1
 	clear
 	sleep 1

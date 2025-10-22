@@ -69,7 +69,7 @@
   - **CDM line or Terminal**
 	
 ```
-	bash <(curl -fsSL "https://raw.githubusercontent.com/RichardSmith240/Event_Management_Application-IOOP2025/main/install.sh")
+	bash <(curl -fsSL "https://raw.githubusercontent.com/RichardSmith240/Event_Management_Application-IOOP2025/main/scripts/install.sh")
 ```
 	
 </details>
